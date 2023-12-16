@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main > .Tarjetas{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+main >.Tarjetas:hover{
+    /* Arriba - Derecha - Derecha*/
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Aplicamos estilos a las img respecto a las card */
+main > .Tarjetas > img{
+    width: 100%;
+    height: fit-content;
+}
+
+main >.Tarjetas >h2{
+font-size: small;
+width:100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #214E34;
+    font-style:italic;
+    flex-wrap: wrap;
+}
+
+footer .copy {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;   
+}
+footer .redes{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}

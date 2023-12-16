@@ -1,0 +1,37 @@
+* {
+    /* fomateador universal */
+    margin: 0%;
+    padding: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #335C81;
+    font-style: normal;
+    flex-wrap: wrap;
+}
+
+main>.tarjetas> img{
+justify-content: center;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+footer .copy {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;   
+}
+footer .redes{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
